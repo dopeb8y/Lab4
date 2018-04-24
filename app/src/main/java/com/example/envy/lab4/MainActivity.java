@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
+    private ArrayList<String> target;
+    private ArrayAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         listview.setAdapter(this.adapter);
     }
 
-    private ArrayList<String> target;
-    private ArrayAdapter adapter;
+
 
 }
